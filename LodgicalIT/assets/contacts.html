@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Наши контакты</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/logo.png">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/contacts.css">
+</head>
+<body>
+
+<!-- build:section layout.header-->
+<!-- /build -->
+
+<section class="banner">
+    <div class="container">
+        <div class="bread-crumbs">
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><span>Контакты</span></li>
+            </ul>
+        </div>
+        <h1 class="banner__heading">Наши контакты</h1>
+        <p class="banner__subtitle">Мы с радостью проконсультируем Вас</p>
+    </div>
+</section>
+
+<div class="mainInfo">
+    <div class="container">
+        <div class="mainInfo__wrapper">
+            <div class="mainInfo__wrapper-item">
+                <span class="number">01</span>
+                <div class="img">
+                    <img src="../img/phone-ico.png" alt="icon">
+                </div>
+                <div class="text">
+                    <p>Телефон: </p>
+                    <a href="tel:+74993481980">+7 (499) 348-19-80</a>
+                </div>
+            </div>
+            <div class="mainInfo__wrapper-item">
+                <span class="number">02</span>
+                <div class="img">
+                    <img src="../img/mail-ico.png" alt="icon">
+                </div>
+                <div class="text">
+                    <p>Email:  </p>
+                    <a href="mailto:info@lgc-it.ru">info@lgc-it.ru</a>
+                </div>
+            </div>
+            <div class="mainInfo__wrapper-item">
+                <span class="number">03</span>
+                <div class="img">
+                    <img src="../img/location-ico.png" alt="icon">
+                </div>
+                <div class="text">
+                    <p>Адрес: г.Москва, </p>
+                    <p>Кронштадтский бульвар, д.9, стр.2</p>
+                </div>
+            </div>
+        </div>
+        <div class="mainInfo__map">
+            <div id="map" data-coord="[55.743739, 37.625751]"></div>
+        </div>
+    </div>
+</div>
+
+
+<!-- build:section layout.form_section-->
+<!-- /build -->
+
+
+<!-- build:section layout.footer-->
+<!-- /build -->
+
+<script src="../js/jquery.min.js"></script>
+<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=d33059ee-486d-44a1-a852-d096db3618d8"></script>
+
+<script src="../js/script.min.js"></script>
+</body>
+</html>

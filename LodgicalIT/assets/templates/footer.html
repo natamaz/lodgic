@@ -1,0 +1,56 @@
+<footer class="footer">
+    <div class="footer__copyright">
+        <div class="container">
+            <a target="_blank" href="http://plemyastudio.ru"><i>©</i> Все права защищены, 2019. Разработка "Студия Племя".</a>
+        </div>
+    </div>
+</footer>
+
+<div id="cookie-notice" class="cookie-notice" role="banner">
+    <div class="container">
+        <div class="cookie-notice__container">
+            <div class="cookie-text">
+                <p class="notice-text">
+                    Согласие на обработку персональных данных. Продолжая использовать (просматривать, осуществлять действия и т.д.) 
+                    сайт http://skzi-license.ru (далее – «Сайт») и/или оставляя заявку (ввод имени, номера телефона или... <a href="../docs/Policy_PD.pdf" target="_blank">Узнать подробнее</a>
+                </p>
+            </div>
+            <div class="cookie-btn">
+                <a href="#" class="accept-cookie btn">ДА</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Popups -->
+<div class="overlay-requestCall overlayPopup">
+    <div class="close"></div>
+    <div class="requestCall__popup">
+        <span class="close-popup closeBtn"></span>
+        <p class="requestCall__popup-heading">Заказать звонок</p>
+        <p class="requestCall__popup-sub">Оставьте ваши данные и мы вам перезвоним.</p>
+        <form onsubmit="return false">
+            <div class="form-input name">
+                <input type="text" placeholder="Имя..." required>
+            </div>
+            <div class="form-input phone">
+                <input type="number" placeholder="Телефон..." required>
+            </div>
+            <div class="form-textarea">
+                <textarea name="msg" placeholder="Сообщение..." required></textarea>
+            </div>
+            <button class="sendBtn closeBtn open-thanksMsg" type="submit">Отправить <i class="icon-icon9"></i> </button>
+        </form>
+    </div>
+</div>
+
+
+<div class="overlay-thanksMsg overlayPopup">
+    <div class="close"></div>
+    <div class="thanksMsg__popup">
+        <span class="close-popup closeBtn"></span>
+        <p class="thanksMsg__popup-heading">Спасибо за заявку!</p>
+        <p class="thanksMsg__popup-sub">Наш менеджер свяжется 
+                с Вами в ближайшее время!</p>
+    </div>
+</div>

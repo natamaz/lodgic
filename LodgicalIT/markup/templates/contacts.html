@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Наши контакты</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/logo.png">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/contacts.css">
+</head>
+
+<body>
+
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header__top">
+                <div class="header__top-logo">
+                    <a href="index.html" class="img">
+                        <img src="../img/logo.png" alt="logotype">
+                    </a>
+                    <p class="slog">Технологии защиты данных</p>
+                </div>
+                <div class="header__top-phone">
+                    <i class="icon-icon1"></i>
+                    <a href="tel:+74993481980">+7 (499) 348-19-80</a>
+                </div>
+                <a href="javascript:void(0)" class="header__top-btn open-requestCall">Заказать звонок</a>
+            </div>
+        </div>
+        <div class="header__bottom">
+            <div class="header__bottom-menu">
+                <!--Mobile menu hamburger-->
+                <button class="toggle-menu">
+                    <span class="hamburger">
+                    <span class="sw-topper"></span>
+                    <span class="sw-bottom"></span>
+                    <span class="sw-footer"></span>
+                    </span>
+                </button>
+                <!--End mobile menu hamburger-->
+                <nav class="mainMenu" id="mainMenu">
+                    <ul>
+                        <li>
+                            <a href="index.html">Главная</a>
+                        </li>
+                        <li>
+                            <a href="services.html">Услуги</a>
+                        </li>
+                        <li>
+                            <a href="clients-and-partners.html">Клиенты и Партнеры</a>
+                        </li>
+                        <li>
+                            <a href="press-releases.html">Пресс-релизы</a>
+                        </li>
+                        <li>
+                            <a href="contacts.html">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header__bottom-search">
+                <form class="form-search">
+                    <input name="search" class="search-query" type="text" placeholder="Поиск...">
+                    <button class="button"><i class="icon-icon12"></i></button>
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <section class="banner">
+        <div class="container">
+            <div class="bread-crumbs">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><span>Контакты</span></li>
+                </ul>
+            </div>
+            <h1 class="banner__heading">Наши контакты</h1>
+            <p class="banner__subtitle">Мы с радостью проконсультируем Вас</p>
+        </div>
+    </section>
+
+    <div class="mainInfo">
+        <div class="container">
+            <div class="mainInfo__wrapper">
+                <div class="mainInfo__wrapper-item">
+                    <span class="number">01</span>
+                    <div class="img">
+                        <img src="../img/phone-ico.png" alt="icon">
+                    </div>
+                    <div class="text">
+                        <p>Телефон: </p>
+                        <a href="tel:+74993481980">+7 (499) 348-19-80</a>
+                    </div>
+                </div>
+                <div class="mainInfo__wrapper-item">
+                    <span class="number">02</span>
+                    <div class="img">
+                        <img src="../img/mail-ico.png" alt="icon">
+                    </div>
+                    <div class="text">
+                        <p>Email: </p>
+                        <a href="mailto:info@lgc-it.ru">info@lgc-it.ru</a>
+                    </div>
+                </div>
+                <div class="mainInfo__wrapper-item">
+                    <span class="number">03</span>
+                    <div class="img">
+                        <img src="../img/location-ico.png" alt="icon">
+                    </div>
+                    <div class="text">
+                        <p>Адрес: г.Москва, </p>
+                        <p>Кронштадтский бульвар, д.9, стр.2</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mainInfo__map">
+                <div id="map" data-coord="[55.743739, 37.625751]"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="sendInfo">
+        <div class="container">
+            <div class="sendInfo__wrapper">
+                <div class="sendInfo__wrapper-item">
+                    <h2 class="heading"><span>Оставьте</span> Ваши контактные данные</h2>
+
+                    <p>Наши специалисты свяжутся с Вами в самое ближайшее время и предоставят необходимые консультации</p>
+
+                    <p class="bold">Пожалуйста, кратко опишите цель обращения в поле "Сообщение"</p>
+                </div>
+                <div class="sendInfo__wrapper-item">
+                    <form onsubmit="return false">
+                        <div class="form-input name">
+                            <input type="text" placeholder="Имя..." required>
+                        </div>
+                        <div class="form-input phone">
+                            <input type="number" placeholder="Телефон..." required>
+                        </div>
+                        <div class="form-input mail">
+                            <input type="text" placeholder="e-mail..." required>
+                        </div>
+                        <div class="form-textarea">
+                            <textarea name="msg" placeholder="Сообщение..." required></textarea>
+                        </div>
+                        <button class="sendBtn open-thanksMsg" type="submit">Отправить <i class="icon-icon9"></i> </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="footer__copyright">
+            <div class="container">
+                <a target="_blank" href="http://plemyastudio.ru"><i>©</i> Все права защищены, 2019. Разработка "Студия Племя".</a>
+            </div>
+        </div>
+    </footer>
+
+    <div id="cookie-notice" class="cookie-notice" role="banner">
+        <div class="container">
+            <div class="cookie-notice__container">
+                <div class="cookie-text">
+                    <p class="notice-text">
+                        Согласие на обработку персональных данных. Продолжая использовать (просматривать, осуществлять действия и т.д.) сайт http://skzi-license.ru (далее – «Сайт») и/или оставляя заявку (ввод имени, номера телефона или... <a href="../docs/Policy_PD.pdf"
+                        target="_blank">Узнать подробнее</a>
+                    </p>
+                </div>
+                <div class="cookie-btn">
+                    <a href="#" class="accept-cookie btn">ДА</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Popups -->
+    <div class="overlay-requestCall overlayPopup">
+        <div class="close"></div>
+        <div class="requestCall__popup">
+            <span class="close-popup closeBtn"></span>
+            <p class="requestCall__popup-heading">Заказать звонок</p>
+            <p class="requestCall__popup-sub">Оставьте ваши данные и мы вам перезвоним.</p>
+            <form onsubmit="return false">
+                <div class="form-input name">
+                    <input type="text" placeholder="Имя..." required>
+                </div>
+                <div class="form-input phone">
+                    <input type="number" placeholder="Телефон..." required>
+                </div>
+                <div class="form-textarea">
+                    <textarea name="msg" placeholder="Сообщение..." required></textarea>
+                </div>
+                <button class="sendBtn closeBtn open-thanksMsg" type="submit">Отправить <i class="icon-icon9"></i> </button>
+            </form>
+        </div>
+    </div>
+
+
+    <div class="overlay-thanksMsg overlayPopup">
+        <div class="close"></div>
+        <div class="thanksMsg__popup">
+            <span class="close-popup closeBtn"></span>
+            <p class="thanksMsg__popup-heading">Спасибо за заявку!</p>
+            <p class="thanksMsg__popup-sub">Наш менеджер свяжется с Вами в ближайшее время!</p>
+        </div>
+    </div>
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=d33059ee-486d-44a1-a852-d096db3618d8"></script>
+
+    <script src="../js/script.min.js"></script>
+</body>
+
+</html>
